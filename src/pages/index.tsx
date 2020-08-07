@@ -11,7 +11,7 @@ import {
 const { Item } = Form;
 const { Option } = Select;
 
-export default () => (
+const Home = () => (
   <div style={{ marginTop: 100 }}>
     <Form layout="horizontal">
       <Item
@@ -71,3 +71,5 @@ export default () => (
     </Form>
   </div>
 );
+
+export default Home;
